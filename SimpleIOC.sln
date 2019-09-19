@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleIOC", "SimpleIOC\SimpleIOC.csproj", "{9134030F-2A70-4FE2-9C1E-AE2B1FDD8F9A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleIOC_Implementation", "SimpleIOC_Implementation\SimpleIOC_Implementation.shproj", "{F3325F73-4457-4CD7-A77D-71494AC69EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleIOC_NetStandard", "SimpleIOC_NetStandard\SimpleIOC_NetStandard.csproj", "{981D5EBD-80BF-47FB-90E1-122853266BE9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SimpleIOC_Implementation\SimpleIOC_Implementation.projitems*{9134030f-2a70-4fe2-9c1e-ae2b1fdd8f9a}*SharedItemsImports = 4
+		SimpleIOC_Implementation\SimpleIOC_Implementation.projitems*{f3325f73-4457-4cd7-a77d-71494ac69ee5}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9134030F-2A70-4FE2-9C1E-AE2B1FDD8F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9134030F-2A70-4FE2-9C1E-AE2B1FDD8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9134030F-2A70-4FE2-9C1E-AE2B1FDD8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9134030F-2A70-4FE2-9C1E-AE2B1FDD8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981D5EBD-80BF-47FB-90E1-122853266BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981D5EBD-80BF-47FB-90E1-122853266BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981D5EBD-80BF-47FB-90E1-122853266BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981D5EBD-80BF-47FB-90E1-122853266BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08650D2D-D518-4A71-9D5C-47F54F13A0D4}
+	EndGlobalSection
+EndGlobal

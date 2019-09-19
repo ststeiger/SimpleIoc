@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f3325f73-4457-4cd7-a77d-71494ac69ee5</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SimpleIOC_Implementation</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Ayende.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Ioc2.cs" />
+  </ItemGroup>
+</Project>
